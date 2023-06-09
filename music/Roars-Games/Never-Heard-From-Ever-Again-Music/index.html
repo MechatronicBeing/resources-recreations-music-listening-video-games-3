@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<link href="../../../MechatronicBeing/scripts/web/media-player/media-player.css" rel="stylesheet">
+<link href="../../../MechatronicBeing/scripts/web/media-player/playlist.css" rel="stylesheet">
+<script src="../../../MechatronicBeing/scripts/web/media-player/playlist.js"></script>
+<script src="../../../MechatronicBeing/scripts/web/media-player/media-player.js"></script>
+
+<svg style="display:none">
+	<symbol id="symbol-play" viewBox="0 0 32 32">
+		<path d="M4 0l24 16L4 32"/>
+	</symbol>
+	<symbol id="symbol-pause" viewBox="0 0 32 32">
+		<path d="M4 0h9v32H4M28 0h-9v32h9"/>
+	</symbol>
+	<symbol id="symbol-mute" viewBox="0 0 32 32">
+		<path d="M0 11h6l10-8.5v27L6 21H0M22 6l10 10-10 10"/>
+	</symbol>
+	<symbol id="symbol-unmute" viewBox="0 0 32 32">
+		<path d="M0 11h6l10-8.5v27L6 21H0"/>
+	</symbol>
+	<symbol id="symbol-download" viewBox="0 0 32 32">
+		<path d="M20 2v12h4l-8 10-8-10h4V2M0 21h5v6h22v-6h5v11H0"/>
+	</symbol>
+	<symbol id="symbol-enterFullscreen" viewBox="0 0 32 32">
+		<path d="M0 0h12L8 4l6 6-4 4-6-6-4 4M32 0H20l4 4-6 6 4 4 6-6 4 4M0 32V20l4 4 6-6 4 4-6 6 4 4m20 0V20l-4 4-6-6-4 4 6 6-4 4"/>
+	</symbol>
+	<symbol id="symbol-leaveFullscreen" viewBox="0 0 32 32">
+		<path d="M0 4l4-4 6 6 4-4v12H2l4-4m26-6l-4-4-6 6-4-4v12h12l-4-4M0 28l4 4 6-6 4 4V18H2l4 4m26 6l-4 4-6-6-4 4V18h12l-4 4"/>
+	</symbol>
+</svg>
+
+<main>
+	<video controls data-options='{"prefix":"media","show":{"volume":false,"fullscreen":false},"lang":{"currentTime":"current time","minutes":"minutes","mute":"mute","play":"play","remainingTime":"remaining time","seconds":"seconds","volume":"volume"}}'></video>
+	<ul class="play-list">
+		<li class="play-item"><a class="play-link" href="am_ambient_1.mp3">am_ambient_1</a></li>
+		<li class="play-item"><a class="play-link" href="am_ambient_2.mp3">am_ambient_2</a></li>
+		<li class="play-item"><a class="play-link" href="am_ambient_3.mp3">am_ambient_3</a></li>
+		<li class="play-item"><a class="play-link" href="am_ambient_4.mp3">am_ambient_4</a></li>
+		<li class="play-item"><a class="play-link" href="am_credits.mp3">am_credits</a></li>
+		<li class="play-item"><a class="play-link" href="am_intro.mp3">am_intro</a></li>
+		<li class="play-item"><a class="play-link" href="am_menu.mp3">am_menu</a></li>
+		<li class="play-item"><a class="play-link" href="am_music.mp3">am_music</a></li>
+		<li class="play-item"><a class="play-link" href="am_outro.mp3">am_outro</a></li>
+	</ul>
+</main>
+
+<section id="music">
+	<p>
+    <b><u>MUSIC</u></b><br>
+		<b>Author :</b> Roars Games<br>
+    <b>Websites :</b> <a href="https://opengameart.org/users/roars-games">https://opengameart.org/users/roars-games</a><br>
+    <b>Title :</b> Never Heard From Ever Again Music<br>
+    <b>License :</b> <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0 Public Domain Dedication</a><br>
+    <b>Sources :</b> <a href="https://opengameart.org/content/nhfea-music">https://opengameart.org/content/nhfea-music</a><br>
+	</p>
+</section>
+
+<section id="mediaplayer">
+	<p>
+    <b><u>MEDIA PLAYER</u></b><br>
+    <b>Author :</b> <a href="https://github.com/jonathantneal/">Jonathan Neal</a><br>
+    <b>License :</b> CC0 "No Rights Reserved"<br>
+    <b>Sources :</b> <a href="https://github.com/jonathantneal/media-player">Original version</a> / <a href="../../../MechatronicBeing/media-player/">MechatronicBeing's modifications</a>
+	</p>
+</section>

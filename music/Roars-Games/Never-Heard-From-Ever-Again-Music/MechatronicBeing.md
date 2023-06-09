@@ -1,0 +1,6 @@
+- **Author** : Roars Games   
+- **Description** : pack of free Music and ambient from game Never Heard From Ever Again (NHFEA)  
+- **License** : CC0 Public Domain Dedication  
+- **Type** : music  
+- **Website** : https://opengameart.org/users/roars-games  
+- **Sources** : https://opengameart.org/content/nhfea-music  
