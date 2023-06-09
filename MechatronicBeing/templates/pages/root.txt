@@ -1,0 +1,21 @@
+# $$categoryName$$
+$$currentCategorySummary$$  
+**Important notice :**  
+Currently, MechatronicBeing's scripts are being developed ; links between resources are not preserved.  
+  
+## Search by 
+- works  
+- [authors]($$pageAuthorsDir$$/)  
+- [files]($$pagesFilesTargetDir$$/)  
+- [$$categoryName$$]($$pageListDir$$/)  
+  
+## Other sections
+- [Downloading](MechatronicBeing/pages/downloading/)  
+- [Contributing](MechatronicBeing/pages/contributing/)  
+    
+## Licenses
+These resources are under a **Public Domain license** (CC0, WTFPL, Unlicense, etc.), **unless otherwise stated**.  
+See the [Licenses](MechatronicBeing/pages/licenses/) section.
+  
+## Contact
+$$onlineContact$$
