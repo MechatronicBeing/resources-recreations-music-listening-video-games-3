@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<link href="../../../MechatronicBeing/scripts/web/media-player/media-player.css" rel="stylesheet">
+<link href="../../../MechatronicBeing/scripts/web/media-player/playlist.css" rel="stylesheet">
+<script src="../../../MechatronicBeing/scripts/web/media-player/playlist.js"></script>
+<script src="../../../MechatronicBeing/scripts/web/media-player/media-player.js"></script>
+
+<svg style="display:none">
+	<symbol id="symbol-play" viewBox="0 0 32 32">
+		<path d="M4 0l24 16L4 32"/>
+	</symbol>
+	<symbol id="symbol-pause" viewBox="0 0 32 32">
+		<path d="M4 0h9v32H4M28 0h-9v32h9"/>
+	</symbol>
+	<symbol id="symbol-mute" viewBox="0 0 32 32">
+		<path d="M0 11h6l10-8.5v27L6 21H0M22 6l10 10-10 10"/>
+	</symbol>
+	<symbol id="symbol-unmute" viewBox="0 0 32 32">
+		<path d="M0 11h6l10-8.5v27L6 21H0"/>
+	</symbol>
+	<symbol id="symbol-download" viewBox="0 0 32 32">
+		<path d="M20 2v12h4l-8 10-8-10h4V2M0 21h5v6h22v-6h5v11H0"/>
+	</symbol>
+	<symbol id="symbol-enterFullscreen" viewBox="0 0 32 32">
+		<path d="M0 0h12L8 4l6 6-4 4-6-6-4 4M32 0H20l4 4-6 6 4 4 6-6 4 4M0 32V20l4 4 6-6 4 4-6 6 4 4m20 0V20l-4 4-6-6-4 4 6 6-4 4"/>
+	</symbol>
+	<symbol id="symbol-leaveFullscreen" viewBox="0 0 32 32">
+		<path d="M0 4l4-4 6 6 4-4v12H2l4-4m26-6l-4-4-6 6-4-4v12h12l-4-4M0 28l4 4 6-6 4 4V18H2l4 4m26 6l-4 4-6-6-4 4V18h12l-4 4"/>
+	</symbol>
+</svg>
+
+<main>
+	<video controls data-options='{"prefix":"media","show":{"volume":false,"fullscreen":false},"lang":{"currentTime":"current time","minutes":"minutes","mute":"mute","play":"play","remainingTime":"remaining time","seconds":"seconds","volume":"volume"}}'></video>
+	<ul class="play-list">
+		<li class="play-item"><a class="play-link" href="1.mp3">1</a></li>
+		<li class="play-item"><a class="play-link" href="2.mp3">2</a></li>
+		<li class="play-item"><a class="play-link" href="3.mp3">3</a></li>
+		<li class="play-item"><a class="play-link" href="4.mp3">4</a></li>
+		<li class="play-item"><a class="play-link" href="5.mp3">5</a></li>
+		<li class="play-item"><a class="play-link" href="6.mp3">6</a></li>
+		<li class="play-item"><a class="play-link" href="7.mp3">7</a></li>
+		<li class="play-item"><a class="play-link" href="7b.mp3">7b</a></li>
+		<li class="play-item"><a class="play-link" href="8.mp3">8</a></li>
+		<li class="play-item"><a class="play-link" href="8b.mp3">8b</a></li>
+		<li class="play-item"><a class="play-link" href="9.mp3">9</a></li>
+		<li class="play-item"><a class="play-link" href="10.mp3">10</a></li>
+		<li class="play-item"><a class="play-link" href="10b.mp3">10b</a></li>
+	</ul>
+</main>
+
+<section id="music">
+	<p>
+    <b><u>MUSIC</u></b><br>
+		<b>Author :</b>  "phoenix1291" or "SwissArcadeGameEntertainment" <br>
+    <b>Websites :</b> <a href="https://phoenix1291.itch.io/">https://phoenix1291.itch.io/</a> - <a href="https://www.patreon.com/SwissArcadeGameEntertainment">https://www.patreon.com/SwissArcadeGameEntertainment</a><br>
+    <b>Title :</b> Music Pack 1<br>
+    <b>License :</b> <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0 Public Domain Dedication</a><br>
+    <b>Sources :</b> <a href="https://opengameart.org/content/music-pack-1">https://opengameart.org/content/music-pack-1</a><br>
+	</p>
+</section>
+
+<section id="mediaplayer">
+	<p>
+    <b><u>MEDIA PLAYER</u></b><br>
+    <b>Author :</b> <a href="https://github.com/jonathantneal/">Jonathan Neal</a><br>
+    <b>License :</b> CC0 "No Rights Reserved"<br>
+    <b>Sources :</b> <a href="https://github.com/jonathantneal/media-player">Original version</a> / <a href="../../../MechatronicBeing/media-player/">MechatronicBeing's modifications</a>
+	</p>
+</section>
