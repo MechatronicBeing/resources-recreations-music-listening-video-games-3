@@ -93,3 +93,11 @@
 2023-06-09 12:13:17: [ERROR] MechatronicBeing/scripts/_MechatronicBeing/pages/pages-other/pages-root.sh: variable "](" does not exist. 
 2023-06-09 12:13:19: [ERROR] MechatronicBeing/scripts/_MechatronicBeing/pages/pages-other/pages-root.sh: variable "" does not exist. 
 2023-06-09 12:13:25: [ERROR] : variable "mainCategory" does not exist. 
+2023-07-05 03:42:39: [ERROR] MechatronicBeing/scripts/_MechatronicBeing/pages/pages-other/pages-root.sh: variable "# " does not exist. 
+2023-07-05 03:42:40: [ERROR] MechatronicBeing/scripts/_MechatronicBeing/pages/pages-other/pages-root.sh: variable "" does not exist. 
+2023-07-05 03:42:42: [ERROR] MechatronicBeing/scripts/_MechatronicBeing/pages/pages-other/pages-root.sh: variable "- [authors](" does not exist. 
+2023-07-05 03:42:44: [ERROR] MechatronicBeing/scripts/_MechatronicBeing/pages/pages-other/pages-root.sh: variable "- [files](" does not exist. 
+2023-07-05 03:42:45: [ERROR] MechatronicBeing/scripts/_MechatronicBeing/pages/pages-other/pages-root.sh: variable "- [" does not exist. 
+2023-07-05 03:42:47: [ERROR] MechatronicBeing/scripts/_MechatronicBeing/pages/pages-other/pages-root.sh: variable "](" does not exist. 
+2023-07-05 03:42:49: [ERROR] MechatronicBeing/scripts/_MechatronicBeing/pages/pages-other/pages-root.sh: variable "" does not exist. 
+2023-07-05 03:42:55: [ERROR] : variable "mainCategory" does not exist. 

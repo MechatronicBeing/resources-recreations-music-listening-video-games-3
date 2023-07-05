@@ -1,0 +1,53 @@
+- **Title** : Pixelsphere music
+- **Description** : Music from the game Pixelsphere
+- **Author** : cynicmusic (Alex Smith)
+- **Website** : https://cynicmusic.com/
+  - https://pixelsphere.org/
+  - https://opengameart.org/users/cynicmusic
+- **License** : CC0
+  - CC0 licensed for ALL files in https://opengameart.org/users/cynicmusic and https://www.relaxmoods.com/free/
+  - attribution : "The Cynic Project / cynicmusic.com / pixelsphere.org"
+- **Note** : More music on http://pixelsphere.org and https://cynicmusic.com/, **BUT** these are not CC0 licensed. "Public Domain CC0 Assets from Pixelsphere are available on opengameart.org".
+- **Sources** : 
+  - https://opengameart.org/content/calm-relax-1-synthwave-421k
+  - https://opengameart.org/content/calm-ambient-3-lifewave-2k
+  - https://opengameart.org/content/calm-piano-1-vaporware
+  - https://opengameart.org/content/calm-ambient-2-synthwave-15k
+  - https://opengameart.org/content/calm-ambient-1-synthwave-4k
+  - https://opengameart.org/content/battle-theme-b-for-rpg
+  - https://opengameart.org/content/hypnotic-chill-extended-4-minute-mix
+  - https://opengameart.org/content/sinister-boss-appears
+  - https://opengameart.org/content/hyper-ultra-racing
+  - https://opengameart.org/content/bouncy-hamster-dancing-menu-music
+  - https://opengameart.org/content/hyperflight-racing
+  - https://opengameart.org/content/aquaria
+  - https://opengameart.org/content/epic-endgame-cinematic
+  - https://opengameart.org/content/dramatic-boss-encounter
+  - https://opengameart.org/content/victory-fanfare-short
+  - https://opengameart.org/content/victory-theme-for-rpg
+  - https://opengameart.org/content/the-charm-68
+  - https://opengameart.org/content/the-hex
+  - https://opengameart.org/content/dark-forest-theme
+  - https://opengameart.org/content/november-snow
+  - https://opengameart.org/content/another-august
+  - https://opengameart.org/content/sirens-in-darkness
+  - https://opengameart.org/content/icy-realm-seven-and-eight
+  - https://opengameart.org/content/a-new-town-rpg-theme
+  - https://opengameart.org/content/hella-bumps-menu-music
+  - https://opengameart.org/content/enchanted-tiki-86
+  - https://opengameart.org/content/awake-megawall-10
+  - https://opengameart.org/content/battle-theme-a
+  - https://opengameart.org/content/town-theme-rpg
+  - https://opengameart.org/content/happy-lullaby-song17
+  - https://opengameart.org/content/crystal-cave-song18
+  - https://www.relaxmoods.com/free/
+- Modifications :
+  - converted wav files to mp3
+  - renamed "2010_June_HypnoticChill_17.mp3 to "HypnoticChill_17.mp3"
+  - renamed "AugustUltraAmbience.mp3" to "UltraAmbience.mp3"
+  - renamed "2012_november_fakeAwake04 back to A minor.mp3" to "fakeAwake04 back to A minor.mp3"
+  - renamed "GameMusic_ForestTheme_24.mp3" to "ForestTheme_24.mp3"
+  - renamed "155 November_snow-33_tape_leveled.mp3" to "014_November_snow.mp3"
+  - renamed "song17.mp3" to "HappyLullaby_17.mp3"
+  - renamed "song18.mp3" to "CrystalCave_18.mp3"
+  

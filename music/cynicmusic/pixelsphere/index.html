@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../../../MechatronicBeing/scripts/web/media-player/media-player.css" rel="stylesheet">
+<link href="../../../MechatronicBeing/scripts/web/media-player/playlist.css" rel="stylesheet">
+<script src="../../../MechatronicBeing/scripts/web/media-player/playlist.js"></script>
+<script src="../../../MechatronicBeing/scripts/web/media-player/media-player.js"></script>
+
+<svg style="display:none">
+	<symbol id="symbol-play" viewBox="0 0 32 32">
+		<path d="M4 0l24 16L4 32"/>
+	</symbol>
+	<symbol id="symbol-pause" viewBox="0 0 32 32">
+		<path d="M4 0h9v32H4M28 0h-9v32h9"/>
+	</symbol>
+	<symbol id="symbol-mute" viewBox="0 0 32 32">
+		<path d="M0 11h6l10-8.5v27L6 21H0M22 6l10 10-10 10"/>
+	</symbol>
+	<symbol id="symbol-unmute" viewBox="0 0 32 32">
+		<path d="M0 11h6l10-8.5v27L6 21H0"/>
+	</symbol>
+	<symbol id="symbol-download" viewBox="0 0 32 32">
+		<path d="M20 2v12h4l-8 10-8-10h4V2M0 21h5v6h22v-6h5v11H0"/>
+	</symbol>
+	<symbol id="symbol-enterFullscreen" viewBox="0 0 32 32">
+		<path d="M0 0h12L8 4l6 6-4 4-6-6-4 4M32 0H20l4 4-6 6 4 4 6-6 4 4M0 32V20l4 4 6-6 4 4-6 6 4 4m20 0V20l-4 4-6-6-4 4 6 6-4 4"/>
+	</symbol>
+	<symbol id="symbol-leaveFullscreen" viewBox="0 0 32 32">
+		<path d="M0 4l4-4 6 6 4-4v12H2l4-4m26-6l-4-4-6 6-4-4v12h12l-4-4M0 28l4 4 6-6 4 4V18H2l4 4m26 6l-4 4-6-6-4 4V18h12l-4 4"/>
+	</symbol>
+</svg>
+
+<main>
+	<video controls data-options='{"prefix":"media","show":{"volume":false,"fullscreen":false},"lang":{"currentTime":"current time","minutes":"minutes","mute":"mute","play":"play","remainingTime":"remaining time","seconds":"seconds","volume":"volume"}}'></video>
+	<ul class="play-list">
+		<li class="play-item"><a class="play-link" href="001_Synthwave_4k.mp3">001_Synthwave_4k</a></li>
+		<li class="play-item"><a class="play-link" href="002_Synthwave_15k.mp3">002_Synthwave_15k</a></li>
+		<li class="play-item"><a class="play-link" href="003_Vaporware.mp3">003_Vaporware</a></li>
+		<li class="play-item"><a class="play-link" href="006_lifeWave2k.mp3">006_lifeWave2k</a></li>
+		<li class="play-item"><a class="play-link" href="007_Synthwave_421k.mp3">007_Synthwave_421k</a></li>
+		<li class="play-item"><a class="play-link" href="012_Sirens_in_Darkness.mp3">012_Sirens_in_Darkness</a></li>
+		<li class="play-item"><a class="play-link" href="013_Another_August.mp3">013_Another_August</a></li>
+		<li class="play-item"><a class="play-link" href="014_November_snow.mp3">014_November_snow</a></li>
+		<li class="play-item"><a class="play-link" href="019_seven_and_eight_7-8_combined.mp3">019_seven_and_eight_7-8_combined</a></li>
+		<li class="play-item"><a class="play-link" href="025_A_New_Town.mp3">025_A_New_Town</a></li>
+		<li class="play-item"><a class="play-link" href="A%20new%20town%202x.mp3">A new town 2x</a></li>
+		<li class="play-item"><a class="play-link" href="AlexBouncyMaster.mp3">AlexBouncyMaster</a></li>
+		<li class="play-item"><a class="play-link" href="awake10_megaWall.mp3">awake10_megaWall</a></li>
+		<li class="play-item"><a class="play-link" href="battleThemeA.mp3">battleThemeA</a></li>
+		<li class="play-item"><a class="play-link" href="battleThemeB.mp3">battleThemeB</a></li>
+		<li class="play-item"><a class="play-link" href="ChoirChordsBassMaster.mp3">ChoirChordsBassMaster</a></li>
+		<li class="play-item"><a class="play-link" href="citrus_ultramix.mp3">citrus_ultramix</a></li>
+		<li class="play-item"><a class="play-link" href="enchanted%20tiki%2086.mp3">enchanted tiki 86</a></li>
+		<li class="play-item"><a class="play-link" href="fakeAwake04%20back%20to%20A%20minor.mp3">fakeAwake04 back to A minor</a></li>
+		<li class="play-item"><a class="play-link" href="ForestTheme_24.mp3">ForestTheme_24</a></li>
+		<li class="play-item"><a class="play-link" href="HappyLullaby_17.mp3">HappyLullaby_17</a></li>
+		<li class="play-item"><a class="play-link" href="Heavy%20Concept%20A%20Bass%20Master.mp3">Heavy Concept A Bass Master</a></li>
+		<li class="play-item"><a class="play-link" href="Heavy_ConceptB.mp3">Heavy_ConceptB</a></li>
+		<li class="play-item"><a class="play-link" href="hella%20bumps.mp3">hella bumps</a></li>
+		<li class="play-item"><a class="play-link" href="HypnoticChill_17.mp3">HypnoticChill_17</a></li>
+		<li class="play-item"><a class="play-link" href="Sinister%20Boss%20Appears.mp3">Sinister Boss Appears</a></li>
+		<li class="play-item"><a class="play-link" href="the%20charm%2068.mp3">the charm 68</a></li>
+		<li class="play-item"><a class="play-link" href="the%20hex%2009.mp3">the hex 09</a></li>
+		<li class="play-item"><a class="play-link" href="TownTheme.mp3">TownTheme</a></li>
+		<li class="play-item"><a class="play-link" href="TylerSong3_Normal.mp3">TylerSong3_Normal</a></li>
+		<li class="play-item"><a class="play-link" href="UltraAmbience.mp3">UltraAmbience</a></li>
+		<li class="play-item"><a class="play-link" href="Victory1.mp3">Victory1</a></li>
+	</ul>
+</main>
+
+<section id="music">
+	<p>
+    <b><u>MUSIC</u></b><br>
+		<b>Author :</b> cynicmusic (Alex Smith) <br>
+    <b>Websites :</b> <a href="https://cynicmusic.com/">https://cynicmusic.com/</a> - <a href="https://pixelsphere.org/">https://pixelsphere.org/</a> - <a href="https://opengameart.org/users/cynicmusic">https://opengameart.org/users/cynicmusic</a><br>
+    <b>Title :</b> Music from the game Pixelsphere<br>
+    <b>License :</b> <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0 Public Domain Dedication</a><br>
+    <b>Attribution :</b> The Cynic Project / pixelsphere.org / cynicmusic.com<br>
+    <b>Sources :</b> <a href="https://opengameart.org/users/cynicmusic">https://opengameart.org/users/cynicmusic</a> and <a href="https://www.relaxmoods.com/free/">https://www.relaxmoods.com/free/</a><br>
+	</p>
+</section>
+
+<section id="mediaplayer">
+	<p>
+    <b><u>MEDIA PLAYER</u></b><br>
+    <b>Author :</b> <a href="https://github.com/jonathantneal/">Jonathan Neal</a><br>
+    <b>License :</b> CC0 "No Rights Reserved"<br>
+    <b>Sources :</b> <a href="https://github.com/jonathantneal/media-player">Original version</a> / <a href="../../../MechatronicBeing/media-player/">MechatronicBeing's modifications</a>
+	</p>
+</section>
